@@ -11,7 +11,7 @@
 
 <h2>Soal</h2>
 
-<img width="470" alt="soal 1" src="images/01.png">
+<img width="600" height="400" alt="soal 1" src="images/0.png">
 
 - Soal shift dikerjakan pada Cisco Packet Tracer dan GNS3 menggunakan metode perhitungan CLASSLESS yang berbeda.
 Keterangan: Bila di CPT menggunakan VLSM, maka di GNS3 menggunakan CIDR atau sebaliknya.
