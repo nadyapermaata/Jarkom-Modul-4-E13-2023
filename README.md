@@ -54,11 +54,13 @@ Berdasarkan total IP dan netmask yang dibutuhkan, maka kita dapat menggunakan ne
 
 <h2> GNS3 - (CIDR) Classless Inter-Domain Routing</h2>
 
-<h3>Pengelompokan Subnet</h3>
+Perhitungan pada teknik CIDR didasarkan pada jumlah komputer/ host yang ada di dalam subnet. Tetapi cara mendapatkan subnet besar tidak sama dengan VLSM. 
 
-Menentukan subnet yang ada dalam topologi dan melakukan labelling netmask terhadap masing-masing subnet
+`Langkah 1` <h4>Menentukan subnet yang ada dalam topologi dan melakukan labelling terhadap masing-masing subnet</h4>
 
 <img width="470" alt="soal 1" src="images/01.png">
+
+`Langkah 2` <h4>Penggabungan Subnet. Subnet yang digabung tersebut akan membentuk sebuah subnet lebih besar dari subnet-subnet kecil yang ada di dalamnya.</h4>
 
 <img width="470" alt="soal 1" src="images/01.png">
 
@@ -80,7 +82,7 @@ Menentukan subnet yang ada dalam topologi dan melakukan labelling netmask terhad
 
 <img width="600" alt="soal 1" src="images/01.png">
 
-Dari proses penggabungan yang telah dilakukan, didapatkan sebuah subnet besar dengan netmask /21
+Dari proses penggabungan yang telah dilakukan, didapatkan sebuah subnet besar dengan netmask /15. Kali ini dapat menggunakan NID 192.168.0.0, netmask 255.254.0.0.
 
 Perhitungan pembagian IP dengan pohon berdasarkan penggabungan subnet yang telah dilakukan.
 
