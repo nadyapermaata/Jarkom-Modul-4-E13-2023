@@ -9,9 +9,20 @@
 
 10.43.X.X
 
-<h2>Topologi</h2>
+<h2>Soal</h2>
 
 <img width="470" alt="soal 1" src="images/01.png">
+
+- Soal shift dikerjakan pada Cisco Packet Tracer dan GNS3 menggunakan metode perhitungan CLASSLESS yang berbeda.
+Keterangan: Bila di CPT menggunakan VLSM, maka di GNS3 menggunakan CIDR atau sebaliknya.
+
+- Jika tidak ada pemberitahuan revisi soal dari asisten, berarti semua soal BERSIFAT BENAR dan DAPAT DIKERJAKAN.
+Untuk di GNS3 CLOUD merupakan NAT1 jangan sampai salah agar bisa terkoneksi internet.
+
+- Pembagian IP menggunakan Prefix IP yang telah ditentukan pada modul pengenalan
+  
+- Pembagian IP dan routing harus SE-EFISIEN MUNGKIN.
+
 
 <h2># Cisco Packet Tracer - VLSM (Variable Length Subnet Masking)</h2>
 
@@ -19,9 +30,19 @@
 
 <img width="470" alt="soal 1" src="images/01.png">
 
-<h3>Perhitungan Jumlah Subnet</h3>
+<h3>Menentukan jumlah alamat IP yang dibutuhkan oleh tiap subnet </h3>
 
-<h3>VSLM Tree</h3>
+<img width="470" alt="soal 1" src="images/01.png">
+
+Berdasarkan total IP dan netmask yang dibutuhkan, maka kita dapat menggunakan netmask /19 untuk memberikan pengalamatan IP pada subnet.
+
+<h3>Dari pohon tersebut akan mendapat pembagian IP sebagai berikut</h3>
+
+<img width="470" alt="soal 1" src="images/01.png">
+
+<h3>Result</h3>
+
+<img width="470" alt="soal 1" src="images/01.png">
 
 <h3>Routing</h3>
 
@@ -31,7 +52,43 @@
 
 <h3>Pengelompokan Subnet</h3>
 
-<h3>Daftar Subnet yang digabung</h3>
+Menentukan subnet yang ada dalam topologi dan melakukan labelling netmask terhadap masing-masing subnet
+
+<img width="470" alt="soal 1" src="images/01.png">
+
+<img width="470" alt="soal 1" src="images/01.png">
+
+<img width="470" alt="soal 1" src="images/01.png">
+
+<img width="470" alt="soal 1" src="images/01.png">
+
+<img width="470" alt="soal 1" src="images/01.png">
+
+<img width="470" alt="soal 1" src="images/01.png">
+
+<img width="470" alt="soal 1" src="images/01.png">
+
+<img width="470" alt="soal 1" src="images/01.png">
+
+<img width="470" alt="soal 1" src="images/01.png">
+
+<img width="470" alt="soal 1" src="images/01.png">
+
+<img width="470" alt="soal 1" src="images/01.png">
+
+Dari proses penggabungan yang telah dilakukan, didapatkan sebuah subnet besar dengan netmask /21
+
+Perhitungan pembagian IP dengan pohon berdasarkan penggabungan subnet yang telah dilakukan.
+
+<img width="470" alt="soal 1" src="images/01.png">
+
+Berdasarkan penghitungan, maka didapatkan pembagian IP sebagai berikut
+
+<img width="470" alt="soal 1" src="images/01.png">
+
+
+
+
 
 
 
