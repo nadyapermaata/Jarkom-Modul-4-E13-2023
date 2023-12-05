@@ -88,7 +88,7 @@ Perhitungan pembagian IP dengan pohon berdasarkan penggabungan subnet yang telah
 
 <img width="600" height="400" alt="soal 1" src="images/cidr/3.png">
 
-<img width="600" height="400" alt="soal 1" src="images/cidr/4.png">
+<img width="470"  alt="soal 1" src="images/cidr/4.png">
 
 Berdasarkan penghitungan, maka didapatkan pembagian IP sebagai berikut
 
