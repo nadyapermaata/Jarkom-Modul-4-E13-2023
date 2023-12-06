@@ -26,7 +26,14 @@ Untuk di GNS3 CLOUD merupakan NAT1 jangan sampai salah agar bisa terkoneksi inte
 
 <h2># Cisco Packet Tracer - VLSM (Variable Length Subnet Masking)</h2>
 
-<h3>Pengelompokan Subnet</h3>
+
+`Langkah 1`
+
+<h3>Pengelompokan Subnet & Labelling</h3>
+
+Mentukan jumlah alamat IP yang dibutuhkan oleh tiap subnet dan melakukan labelling netmask berdasarkan jumlah IP yang dibutuhkan.
+
+<img width="600" height="400" alt="soal 1" src="img/vlsm/Rute.jpg">
 
 <img width="600" height="400" alt="soal 1" src="img/vlsm/Rute.jpg">
 
