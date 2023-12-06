@@ -11,7 +11,7 @@
 
 <h2>Soal</h2>
 
-<img width="600" height="400" alt="soal 1" src="images/0.png">
+<img width="600" height="400" alt="soal 1" src="img/vlsm/Rute.jpg">
 
 - Soal shift dikerjakan pada Cisco Packet Tracer dan GNS3 menggunakan metode perhitungan CLASSLESS yang berbeda.
 Keterangan: Bila di CPT menggunakan VLSM, maka di GNS3 menggunakan CIDR atau sebaliknya.
@@ -28,7 +28,15 @@ Untuk di GNS3 CLOUD merupakan NAT1 jangan sampai salah agar bisa terkoneksi inte
 
 <h3>Pengelompokan Subnet</h3>
 
-<img width="600" height="400" alt="soal 1" src="images/01.png">
+<img width="600" height="400" alt="soal 1" src="img/vlsm/Rute.jpg">
+
+<img width="600" height="400" alt="soal 1" src="img/vlsm/vlsm_new.png">
+
+<img width="600" height="400" alt="soal 1" src="img/vlsm/perhitungan.png">
+
+<img width="600" height="400" alt="soal 1" src="img/vlsm/6.png">
+
+
 
 <h3>Menentukan jumlah alamat IP yang dibutuhkan oleh tiap subnet </h3>
 
@@ -379,21 +387,22 @@ iface eth0 inet static
 	netmask 255.255.252.0
 	gateway 10.45.36.1
 
-<img width="600" height="400" alt="soal 1" src="images/cidr/2.png">
+<img width="600" height="400" alt="soal 1" src="img/cidr/routecidr1.png">
 
-<img width="600" height="400" alt="soal 1" src="images/cidr/2.png">
+<img width="600" height="400" alt="soal 1" src="img/cidr/routecidr1.png">
 
-<img width="600" height="400" alt="soal 1" src="images/cidr/2.png">
+<img width="600" height="400" alt="soal 1" src="img/cidr/routecidr1.png">
 
 Dari proses penggabungan yang telah dilakukan, didapatkan sebuah subnet besar dengan netmask /15. Kali ini dapat menggunakan NID 192.168.0.0, netmask 255.254.0.0.
 
 Perhitungan pembagian IP dengan pohon berdasarkan penggabungan subnet yang telah dilakukan.
 
-<img width="600" height="400" alt="soal 1" src="images/cidr/2.png">
+TESTING
 
-<img width="600" height="400" alt="soal 1" src="images/cidr/3.png">
+<img width="600" height="400" alt="soal 1" src="img/cidr/testing cidr-1.png">
 
-<img width="470"  alt="soal 1" src="images/cidr/4.png">
+<img width="600" height="400" alt="soal 1" src="img/cidr/testing cidr-1.png">
+
 
 Berdasarkan penghitungan, maka didapatkan pembagian IP sebagai berikut
 
