@@ -11,7 +11,7 @@
 
 <h2>Soal</h2>
 
-<img width="600" height="400" alt="soal 1" src="img/vlsm/Rute.jpg">
+<img width="600" height="400" alt="soal 1" src="img/0.png">
 
 - Soal shift dikerjakan pada Cisco Packet Tracer dan GNS3 menggunakan metode perhitungan CLASSLESS yang berbeda.
 Keterangan: Bila di CPT menggunakan VLSM, maka di GNS3 menggunakan CIDR atau sebaliknya.
@@ -36,25 +36,41 @@ Untuk di GNS3 CLOUD merupakan NAT1 jangan sampai salah agar bisa terkoneksi inte
 
 <img width="600" height="400" alt="soal 1" src="img/vlsm/6.png">
 
+<img width="600" height="400" alt="soal 1" src="img/vlsm/routevlsm1.png">
+
+<img width="600" height="400" alt="soal 1" src="img/vlsm/routevlsm2.png">
+
+<img width="600" height="400" alt="soal 1" src="img/vlsm/routevlsm3.png">
+
+<img width="600" height="400" alt="soal 1" src="img/vlsm/routeclientvlsm.png">
+
+<img width="600" height="400" alt="soal 1" src="img/vlsm/routeservervlsm.png">
+
+<img width="600" height="400" alt="soal 1" src="img/vlsm/routevlsm11.png">
+
+<img width="600" height="400" alt="soal 1" src="img/vlsm/routevlsm12.png">
+
+<img width="600" height="400" alt="soal 1" src="img/vlsm/routevlsm13.png">
+
+
 
 
 <h3>Menentukan jumlah alamat IP yang dibutuhkan oleh tiap subnet </h3>
 
-<img width="600" height="400" alt="soal 1" src="images/vlsm/2.png">
 
 Berdasarkan total IP dan netmask yang dibutuhkan, maka kita dapat menggunakan netmask /19 untuk memberikan pengalamatan IP pada subnet.
 
-<img width="600" height="400" alt="soal 1" src="images/vlsm/3.png">
+
 
 <h3>Dari pohon tersebut akan mendapat pembagian IP sebagai berikut</h3>
 
-<img width="600" height="400" alt="soal 1" src="images/04.png">
 
-<img width="600" height="400" alt="soal 1" src="images/05.png">
 
 <h3>Result</h3>
 
-<img width="600" height="400" alt="soal 1" src="images/vlsm/6.png">
+<img width="600" height="400" alt="soal 1" src="img/vlsm/testing setelah routing.png">
+
+<img width="600" height="400" alt="soal 1" src="img/vlsm/testing setelah subnetting.png">
 
 <h3>Routing</h3>
 
@@ -105,8 +121,10 @@ Perhitungan pada teknik CIDR didasarkan pada jumlah komputer/ host yang ada di d
 <img width="600" alt="soal 1" src="img/cidr/gns3.png">
 
 
-Konfigurasi
->>Aura
+Konfigurasi:
+
+- Aura
+``` 
 auto eth0
 iface eth0 inet dhcp
 
@@ -124,8 +142,10 @@ auto eth3
 iface eth3 inet static
 	address 10.44.0.1
 	netmask 255.255.255.252
+```
 
->>Denken
+- Denken
+```
 auto eth0
 iface eth0 inet static
 	address 10.44.1.1
@@ -135,8 +155,10 @@ auto eth1
 iface eth1 inet static
 	address 10.44.0.5
 	netmask 255.255.255.0
+```
 
->>Frieren
+- Frieren
+```
 auto eth0
 iface eth0 inet static
 	address 10.43.128.2
@@ -151,8 +173,10 @@ auto eth2
 iface eth2 inet static
 	address 10.43.24.1
 	netmask 255.255.255.224
+```
 
->>Flamme
+- Flamme
+```
 auto eth0
 iface eth0 inet static
 	address 10.43.24.2
@@ -172,8 +196,10 @@ auto eth3
 iface eth3 inet static
 	address 10.43.0.1
 	netmask 255.255.255.252
+```
 
->>Fern
+- Fern
+```
 auto eth0
 iface eth0 inet static
 	address 10.43.16.2
@@ -183,8 +209,10 @@ auto eth1
 iface eth1 inet static
 	address 10.43.8.1
 	netmask 255.255.248.0
+```
 
->>Himmel
+- Himmel
+```
 auto eth0
 iface eth0 inet static
 	address 10.43.1.1
@@ -194,8 +222,10 @@ auto eth1
 iface eth1 inet static
 	address 10.43.0.5
 	netmask 255.255.255.248
+```
 
->>Eisen
+- Eisen
+```
 auto eth0
 iface eth0 inet static
 	address 10.45.16.2
@@ -220,8 +250,10 @@ auto eth4
 iface eth4 inet static
 	address 10.45.16.5
 	netmask 255.255.255.252
+```
 
->>Lugner
+- Lugner
+```
 auto eth0
 iface eth0 inet static
 	address 10.45.8.2
@@ -236,8 +268,10 @@ auto eth2
 iface eth2 inet static
 	address 10.40.144.1
 	netmask 255.255.255.0
+```
 
->>Linie
+- Linie
+```
 auto eth0
 iface eth0 inet static
 	address 10.45.64.2
@@ -252,8 +286,10 @@ auto eth2
 iface eth2 inet static
 	address 10.45.48.1
 	netmask 255.255.254.0
+```
 
->>Lawine
+- Lawine
+```
 auto eth0
 iface eth0 inet static
 	address 10.45.40.2
@@ -263,8 +299,10 @@ auto eth1
 iface eth1 inet static
 	address 10.45.32.1
 	netmask 255.255.255.192
+```
 
->>Heiter
+- Heiter
+```
 auto eth0
 iface eth0 inet static
 	address 10.45.32.2
@@ -274,118 +312,151 @@ auto eth1
 iface eth1 inet static
 	address 10.45.36.1
 	netmask 255.255.252.0
+```
 
->>Stark
+- Stark
+```
 auto eth0
 iface eth0 inet static
 	address 10.45.16.6
 	netmask 255.255.255.252
 	gateway 10.45.16.5
+```
 
->>Sein
+- Sein
+```
 auto eth0
 iface eth0 inet static
 	address 10.45.36.3
 	netmask 255.255.252.0
 	gateway 10.45.36.1
+```
 
->>Richter
+- Richter
+```
 auto eth0
 iface eth0 inet static
 	address 10.45.96.2
 	netmask 255.255.255.248
 	gateway 10.45.96.1
+```
 
->>Revolte
+- Revolte
+```
 auto eth0
 iface eth0 inet static
 	address 10.45.96.3
 	netmask 255.255.255.248
 	gateway 10.45.96.1
+```
 
->>LakeKorridor
+- LakeKorridor
+```
 auto eth0
 iface eth0 inet static
 	address 10.43.64.2
 	netmask 255.255.255.224
 	gateway 10.43.64.1
+```
 
->>LaubHills
+- LaubHills
+```
 auto eth0
 iface eth0 inet static
 	address 10.43.8.2
 	netmask 255.255.248.0
 	gateway 10.43.8.1
+```
 
->>AppetitRegion
+- AppetitRegion
+```
 auto eth0
 iface eth0 inet static
 	address 10.43.8.3
 	netmask 255.255.248.0
 	gateway 10.43.8.1
+```
 
->>RohrRoad
+- RohrRoad
+```
 auto eth0
 iface eth0 inet static
 	address 10.43.4.2
 	netmask 255.255.252.0
 	gateway 10.43.4.1
+```
 
->>SchwerMountain
+- SchwerMountain
+```
 auto eth0
 iface eth0 inet static
 	address 10.43.1.2
 	netmask 255.255.255.248
 	gateway 10.43.1.1
+```
 
->>RoyalCapital
+- RoyalCapital
+```
 auto eth0
 iface eth0 inet static
 	address 10.44.1.2
 	netmask 255.255.255.0
 	gateway 10.44.1.1
+```
 
->>WilleRegion
+- WilleRegion
+```
 auto eth0
 iface eth0 inet static
 	address 10.44.1.3
 	netmask 255.255.255.0
 	gateway 10.44.1.1
+```
 
->>TurkRegion
+- TurkRegion
+```
 auto eth0
 iface eth0 inet static
 	address 10.45.0.2
 	netmask 255.255.252.0
 	gateway 10.45.0.1
+```
 
->>GrobeForest
+- GrobeForest
+```
 auto eth0
 iface eth0 inet static
 	address 10.45.4.2
 	netmask 255.255.255.0
 	gateway 10.45.4.1
+```
 
->>GranzChannel
+- GranzChannel
+```
 auto eth0
 iface eth0 inet static
 	address 10.45.48.2
 	netmask 255.255.254.0
 	gateway 10.45.48.1
+```
 
->>BredtRegion
+- BredtRegion
+```
 auto eth0
 iface eth0 inet static
 	address 10.45.32.2
 	netmask 255.255.255.192
 	gateway 10.45.32.1
+```
 
->>RiegelCanyon
+- RiegelCanyon
+```
 auto eth0
 iface eth0 inet static
 	address 10.45.36.2
 	netmask 255.255.252.0
 	gateway 10.45.36.1
+```
 
 <img width="600" height="400" alt="soal 1" src="img/cidr/routecidr1.png">
 
