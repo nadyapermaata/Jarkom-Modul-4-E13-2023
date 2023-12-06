@@ -63,15 +63,15 @@ Untuk di GNS3 CLOUD merupakan NAT1 jangan sampai salah agar bisa terkoneksi inte
 
 - Konfigurasi CPT:
 
-<img width="600" height="400" alt="soal 1" src="img/vlsm/routevlsm1.png">
+<img width="600" height="500" alt="soal 1" src="img/vlsm/routevlsm1.png">
 
 <img width="500" height="100" alt="soal 1" src="img/vlsm/routevlsm2.png">
 
 <img width="500" height="120" alt="soal 1" src="img/vlsm/routevlsm3.png">
 
-<img width="600" height="400" alt="soal 1" src="img/vlsm/routeclientvlsm.png">
+<img width="500" height="400" alt="soal 1" src="img/vlsm/routeclientvlsm.png">
 
-<img width="500" height="200" alt="soal 1" src="img/vlsm/routeservervlsm.png">
+<img width="500" height="120" alt="soal 1" src="img/vlsm/routeservervlsm.png">
 
 <img width="600" height="400" alt="soal 1" src="img/vlsm/routevlsm11.png">
 
@@ -98,19 +98,19 @@ Subnet yang digabung tersebut akan membentuk sebuah subnet lebih besar dari subn
 
 - Penggabungan 1
   
-<img width="470" alt="soal 1" src="img/cidr/1.jpg">
+<img width="600" alt="soal 1" src="img/cidr/1.jpg">
 
-<img width="470" alt="soal 1" src="img/cidr/iterasi1 .png">
+<img width="600" alt="soal 1" src="img/cidr/iterasi1 .png">
 
 - Penggabungan 2
 
-<img width="470" alt="soal 1" src="img/cidr/2.jpg">
+<img width="600" alt="soal 1" src="img/cidr/2.jpg">
 
-<img width="470" alt="soal 1" src="img/cidr/iterasi2.png">
+<img width="600" alt="soal 1" src="img/cidr/iterasi2.png">
 
 - Penggabungan 3
 
-<img width="470" alt="soal 1" src="img/cidr/3.jpg">
+<img width="600" alt="soal 1" src="img/cidr/3.jpg">
 
 <img width="600" alt="soal 1" src="img/cidr/iterasi3.png">
 
