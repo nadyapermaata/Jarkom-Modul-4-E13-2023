@@ -62,25 +62,328 @@ Perhitungan pada teknik CIDR didasarkan pada jumlah komputer/ host yang ada di d
 
 `Langkah 2` <h4>Penggabungan Subnet. Subnet yang digabung tersebut akan membentuk sebuah subnet lebih besar dari subnet-subnet kecil yang ada di dalamnya.</h4>
 
-<img width="470" alt="soal 1" src="images/01.png">
+<img width="470" alt="soal 1" src="img/cidr/1.jpg">
 
-<img width="470" alt="soal 1" src="images/01.png">
+<img width="470" alt="soal 1" src="img/cidr/iterasi1 .png">
 
-<img width="470" alt="soal 1" src="images/01.png">
+<img width="470" alt="soal 1" src="img/cidr/2.jpg">
 
-<img width="470" alt="soal 1" src="images/01.png">
+<img width="470" alt="soal 1" src="img/cidr/iterasi2.png">
 
-<img width="470" alt="soal 1" src="images/01.png">
+<img width="470" alt="soal 1" src="img/cidr/3.jpg">
 
-<img width="600" alt="soal 1" src="images/01.png">
+<img width="600" alt="soal 1" src="img/cidr/iterasi3.png">
 
-<img width="600" alt="soal 1" src="images/01.png">
+<img width="600" alt="soal 1" src="img/cidr/4.jpg">
 
-<img width="600" alt="soal 1" src="images/01.png">
+<img width="600" alt="soal 1" src="img/cidr/iterasi5.png">
 
-<img width="600" alt="soal 1" src="images/01.png">
+<img width="600" alt="soal 1" src="img/cidr/5.jpg">
 
-<img width="600" alt="soal 1" src="images/01.png">
+<img width="600" alt="soal 1" src="img/cidr/iterasi6.png">
+
+<img width="600" alt="soal 1" src="img/cidr/6.jpg">
+
+<img width="600" alt="soal 1" src="img/cidr/iterasi7.png">
+
+<img width="600" alt="soal 1" src="img/cidr/7.jpg">
+
+<img width="600" alt="soal 1" src="img/cidr/iterasi8.png">
+
+<img width="600" alt="soal 1" src="img/cidr/cidr-2.png">
+
+<img width="600" alt="soal 1" src="img/cidr/1a.png">
+
+<img width="600" alt="soal 1" src="img/cidr/gns3.png">
+
+
+Konfigurasi
+>>Aura
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+	address 10.43.128.1
+	netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+	address 10.45.16.1
+	netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+	address 10.44.0.1
+	netmask 255.255.255.252
+
+>>Denken
+auto eth0
+iface eth0 inet static
+	address 10.44.1.1
+	netmask 255.255.255.252
+
+auto eth1
+iface eth1 inet static
+	address 10.44.0.5
+	netmask 255.255.255.0
+
+>>Frieren
+auto eth0
+iface eth0 inet static
+	address 10.43.128.2
+	netmask 255.255.255.252
+
+auto eth1
+iface eth1 inet static
+	address 10.43.64.1
+	netmask 255.255.255.224
+
+auto eth2
+iface eth2 inet static
+	address 10.43.24.1
+	netmask 255.255.255.224
+
+>>Flamme
+auto eth0
+iface eth0 inet static
+	address 10.43.24.2
+	netmask 255.255.255.252
+
+auto eth1
+iface eth1 inet static
+	address 10.43.16.1
+	netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+	address 10.43.4.1
+	netmask 255.255.252.0
+
+auto eth3
+iface eth3 inet static
+	address 10.43.0.1
+	netmask 255.255.255.252
+
+>>Fern
+auto eth0
+iface eth0 inet static
+	address 10.43.16.2
+	netmask 255.255.255.252
+
+auto eth1
+iface eth1 inet static
+	address 10.43.8.1
+	netmask 255.255.248.0
+
+>>Himmel
+auto eth0
+iface eth0 inet static
+	address 10.43.1.1
+	netmask 255.255.255.252
+
+auto eth1
+iface eth1 inet static
+	address 10.43.0.5
+	netmask 255.255.255.248
+
+>>Eisen
+auto eth0
+iface eth0 inet static
+	address 10.45.16.2
+	netmask 255.255.255.252
+
+auto eth1
+iface eth1 inet static
+	address 10.45.96.1
+	netmask 255.255.255.248
+
+auto eth2
+iface eth2 inet static
+	address 10.45.64.1
+	netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+	address 10.45.8.1
+	netmask 255.255.255.252
+
+auto eth4
+iface eth4 inet static
+	address 10.45.16.5
+	netmask 255.255.255.252
+
+>>Lugner
+auto eth0
+iface eth0 inet static
+	address 10.45.8.2
+	netmask 255.255.255.252
+
+auto eth1
+iface eth1 inet static
+	address 10.45.0.1
+	netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+	address 10.40.144.1
+	netmask 255.255.255.0
+
+>>Linie
+auto eth0
+iface eth0 inet static
+	address 10.45.64.2
+	netmask 255.255.255.252
+
+auto eth1
+iface eth1 inet static
+	address 10.45.40.1
+	netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+	address 10.45.48.1
+	netmask 255.255.254.0
+
+>>Lawine
+auto eth0
+iface eth0 inet static
+	address 10.45.40.2
+	netmask 255.255.255.252
+
+auto eth1
+iface eth1 inet static
+	address 10.45.32.1
+	netmask 255.255.255.192
+
+>>Heiter
+auto eth0
+iface eth0 inet static
+	address 10.45.32.2
+	netmask 255.255.255.192
+
+auto eth1
+iface eth1 inet static
+	address 10.45.36.1
+	netmask 255.255.252.0
+
+>>Stark
+auto eth0
+iface eth0 inet static
+	address 10.45.16.6
+	netmask 255.255.255.252
+	gateway 10.45.16.5
+
+>>Sein
+auto eth0
+iface eth0 inet static
+	address 10.45.36.3
+	netmask 255.255.252.0
+	gateway 10.45.36.1
+
+>>Richter
+auto eth0
+iface eth0 inet static
+	address 10.45.96.2
+	netmask 255.255.255.248
+	gateway 10.45.96.1
+
+>>Revolte
+auto eth0
+iface eth0 inet static
+	address 10.45.96.3
+	netmask 255.255.255.248
+	gateway 10.45.96.1
+
+>>LakeKorridor
+auto eth0
+iface eth0 inet static
+	address 10.43.64.2
+	netmask 255.255.255.224
+	gateway 10.43.64.1
+
+>>LaubHills
+auto eth0
+iface eth0 inet static
+	address 10.43.8.2
+	netmask 255.255.248.0
+	gateway 10.43.8.1
+
+>>AppetitRegion
+auto eth0
+iface eth0 inet static
+	address 10.43.8.3
+	netmask 255.255.248.0
+	gateway 10.43.8.1
+
+>>RohrRoad
+auto eth0
+iface eth0 inet static
+	address 10.43.4.2
+	netmask 255.255.252.0
+	gateway 10.43.4.1
+
+>>SchwerMountain
+auto eth0
+iface eth0 inet static
+	address 10.43.1.2
+	netmask 255.255.255.248
+	gateway 10.43.1.1
+
+>>RoyalCapital
+auto eth0
+iface eth0 inet static
+	address 10.44.1.2
+	netmask 255.255.255.0
+	gateway 10.44.1.1
+
+>>WilleRegion
+auto eth0
+iface eth0 inet static
+	address 10.44.1.3
+	netmask 255.255.255.0
+	gateway 10.44.1.1
+
+>>TurkRegion
+auto eth0
+iface eth0 inet static
+	address 10.45.0.2
+	netmask 255.255.252.0
+	gateway 10.45.0.1
+
+>>GrobeForest
+auto eth0
+iface eth0 inet static
+	address 10.45.4.2
+	netmask 255.255.255.0
+	gateway 10.45.4.1
+
+>>GranzChannel
+auto eth0
+iface eth0 inet static
+	address 10.45.48.2
+	netmask 255.255.254.0
+	gateway 10.45.48.1
+
+>>BredtRegion
+auto eth0
+iface eth0 inet static
+	address 10.45.32.2
+	netmask 255.255.255.192
+	gateway 10.45.32.1
+
+>>RiegelCanyon
+auto eth0
+iface eth0 inet static
+	address 10.45.36.2
+	netmask 255.255.252.0
+	gateway 10.45.36.1
+
+<img width="600" height="400" alt="soal 1" src="images/cidr/2.png">
+
+<img width="600" height="400" alt="soal 1" src="images/cidr/2.png">
+
+<img width="600" height="400" alt="soal 1" src="images/cidr/2.png">
 
 Dari proses penggabungan yang telah dilakukan, didapatkan sebuah subnet besar dengan netmask /15. Kali ini dapat menggunakan NID 192.168.0.0, netmask 255.254.0.0.
 
