@@ -503,7 +503,7 @@ iface eth0 inet static
 
 <img width="600" height="400" alt="soal 1" src="img/cidr/testing cidr-1.png">
 
-<img width="600" height="400" alt="soal 1" src="img/cidr/testing cidr-1.png">
+<img width="600" height="400" alt="soal 1" src="img/cidr/testing cidr-2.png">
 
 
 
