@@ -138,6 +138,12 @@ Subnet yang digabung tersebut akan membentuk sebuah subnet lebih besar dari subn
 
 <img width="600" alt="soal 1" src="img/cidr/iterasi8.png">
 
+- Penggabungan 8
+
+<img width="600" alt="soal 1" src="img/cidr/8.jpg">
+
+<img width="600" alt="soal 1" src="img/cidr/iterasi9.png">
+
 `Langkah 2` 
 
 <h3>Tree Pembagian IP Address</h3>
