@@ -38,7 +38,7 @@ Untuk di GNS3 CLOUD merupakan NAT1 jangan sampai salah agar bisa terkoneksi inte
 
 - Plotting Subnet
 
-<img width="600" height="400" alt="soal 1" src="img/vlsm/Rute.jpg">
+<img width="600" height="400" alt="soal 1" src="img/vlsm/Rute_baru.jpg">
 
 
 `Langkah 2`
